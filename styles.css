@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Quicksand';
+    margin: 20px;
+    background-color: aliceblue;
+}
+
+.title {
+    color: white;
+    list-style-type: none;
+    background-color: rgb(73, 146, 122);
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 50px;
+}
+
+article img {
+    display: flex;
+    border-radius: 8px;
+    size: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.6s ease-in-out;
+}
+
+.card:hover {
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 4px 6px 24px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 6px 24px -3px rgba(0,0,0,0.75);
+    box-shadow: 4px 6px 24px -3px rgba(0,0,0,0.75);
+}
+
+h2, h3 {
+    color: rgb(87, 178, 148);
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(87, 178, 148);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+nav {
+    background-color: rgb(87, 178, 148);
+    padding: 10px 0;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
+  }
+  
+  ul.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #f0f0f0;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation a:hover {
+    color: #fff;
+    background-color: rgba(87, 178, 148, 0.66);
+    border-radius: 5px;
+    transform: scale(20.20);
+    -webkit-box-shadow: 4px 6px 24px -3px rgba(157,209,171,1);
+    -moz-box-shadow: 4px 6px 24px -3px rgba(157,209,171,1);
+    box-shadow: 4px 6px 24px -3px rgba(157,209,171,1);
+    font-weight: bold;
+}
+
+.profile header {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.featured-image {
+    object-fit: cover;
+    object-position: center;
+}
+
+.patriot {
+    justify-content: center;
+}
